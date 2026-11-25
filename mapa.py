@@ -21,8 +21,15 @@ mapa_romenia = {
     'Vaslui':         [('Urziceni', 142), ('Iasi', 92)],
     'Iasi':           [('Vaslui', 92), ('Neamt', 87)],
     'Neamt':          [('Iasi', 87)],
-}
+    }
 
+heuristica_bucareste = {
+    'Arad': 366, 'Bucharest': 0, 'Craiova': 160, 'Drobeta': 242, 'Eforie': 161,
+    'Fagaras': 176, 'Giurgiu': 77, 'Hirsova': 151, 'Iasi': 226, 'Lugoj': 244,
+    'Mehadia': 241, 'Neamt': 234, 'Oradea': 380, 'Pitesti': 100,
+    'Rimnicu Vilcea': 193, 'Sibiu': 253, 'Timisoara': 329, 'Urziceni': 80,
+    'Vaslui': 199, 'Zerind': 374,
+}
 from mapa import mapa_romenia, heuristica_bucareste
 
 print('Quantidade de cidades no mapa:', len(mapa_romenia))
